@@ -1,0 +1,6 @@
+function main(workbook: ExcelScript.Workbook) {
+  // === PART 1: Build JSON from OutputTable ===
+
+  const table = workbook.getTable("OutputTable");
+  if (!table) {
+    throw new Error('Table "OutputTable" not found.');
