@@ -10,3 +10,9 @@
   --text-color: #403A3A;
   --text-color-light: #707070;
   --container-color: #FAFAFA;
+  --container-color-alt: #F0EFEF;
+  --body-color: #fffefe;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --h1-font-size: 1.5rem;
