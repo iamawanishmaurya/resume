@@ -10,3 +10,9 @@ function main(workbook: ExcelScript.Workbook) {
   const rows = table.getRangeBetweenHeaderAndTotal().getValues();
 
   const statusColIndex = headers.findIndex(h => h.toLowerCase() === "cmdb status");
+  if (statusColIndex === -1) {
+    throw new Error('CMDB Status column not found in OutputTable.');
+  }
+
+  let result: {
+    RITM: string;ID: string
