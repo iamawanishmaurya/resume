@@ -10,3 +10,9 @@ const showMenu = (toggleId, navId) =>{
             nav.classList.toggle('show-menu')
         })
     }
+}
+showMenu('nav-toggle','nav-menu')
+
+/*==================== REMOVE MENU MOBILE ====================*/
+const navLink = document.querySelectorAll('.nav__link')
+
