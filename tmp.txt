@@ -4,3 +4,9 @@ function main(workbook: ExcelScript.Workbook) {
   const table = workbook.getTable("OutputTable");
   if (!table) {
     throw new Error('Table "OutputTable" not found.');
+  }
+
+  const headers = table.getHeaderRowRange().getValues()[0].map(h => h.toString().trim());
+  const rows = table.getRangeBetweenHeaderAndTotal().getValues();
+
+  const statusColIndex = headers.findIndex(h => h.toLowerCase() === "cmdb status");
