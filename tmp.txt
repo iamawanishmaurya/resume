@@ -16,3 +16,9 @@ function main(workbook: ExcelScript.Workbook) {
 
   let result: {
     RITM: string;ID: string
+  } [] = [];
+
+  for (let i = 0; i < rows.length; i++) {
+    let id = rows[i][0];
+    let ritm = rows[i][2];
+    let status = rows[i][statusColIndex];
