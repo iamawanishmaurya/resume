@@ -22,3 +22,9 @@ function main(workbook: ExcelScript.Workbook) {
     let id = rows[i][0];
     let ritm = rows[i][2];
     let status = rows[i][statusColIndex];
+
+    if (!id || !ritm) continue;
+
+    if (status) {
+      let statusText = status.toString().trim().toLowerCase();
+      if (statusText === "closed complete" || statusText === "cancelled") continue;
