@@ -28,3 +28,9 @@ function main(workbook: ExcelScript.Workbook) {
     if (status) {
       let statusText = status.toString().trim().toLowerCase();
       if (statusText === "closed complete" || statusText === "cancelled") continue;
+    }
+
+    result.push({
+      RITM: ritm.toString().trim(),
+      ID: id.toString().trim()
+    });
