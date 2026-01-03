@@ -34,3 +34,9 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
+}
+
+/*========== BASE ==========*/
+*,::before,::after{
+  box-sizing: border-box;
+}
