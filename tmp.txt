@@ -40,3 +40,9 @@ function main(workbook: ExcelScript.Workbook) {
 try {
   const otherTable = workbook.getTable("OfficeForms.Table"); // change table name
   const headers = otherTable.getHeaderRowRange().getValues()[0];
+  const colIndex = headers.findIndex((h: string) => h.trim().toLowerCase() === "cmdb status");
+  if (colIndex !== -1) {
+    const dataRange: ExcelScript.Range = otherTable
+      .getRangeBetweenHeaderAndTotal()
+      .getColumn(colIndex);
+    dataRange.clear(ExcelScript.ClearApplyTo.contents);
