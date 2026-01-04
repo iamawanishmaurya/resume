@@ -40,3 +40,9 @@ function scrollActive(){
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
         }
     })
+}
+window.addEventListener('scroll', scrollActive)
+
+/*==================== SHOW SCROLL TOP ====================*/ 
+function scrollTop(){
+    const scrollTop = document.getElementById('scroll-top');
