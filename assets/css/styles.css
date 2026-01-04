@@ -52,3 +52,9 @@ body.dark-theme{
   --container-color: #212121;
   --container-color-alt: #181616;
   --body-color: #2B2B2B;
+}
+
+/*========== Button Dark/Light ==========*/
+.change-theme{
+  position: absolute;
+  right: 0;
