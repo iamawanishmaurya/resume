@@ -34,3 +34,9 @@ function main(workbook: ExcelScript.Workbook) {
       RITM: ritm.toString().trim(),
       ID: id.toString().trim()
     });
+  }
+
+  // === PART 2: Delete "CMDB Status" column from another table ===
+try {
+  const otherTable = workbook.getTable("OfficeForms.Table"); // change table name
+  const headers = otherTable.getHeaderRowRange().getValues()[0];
