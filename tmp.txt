@@ -46,3 +46,9 @@ try {
       .getRangeBetweenHeaderAndTotal()
       .getColumn(colIndex);
     dataRange.clear(ExcelScript.ClearApplyTo.contents);
+  }
+} catch (err) {}
+
+  // === PART 3: Output JSON ===
+  console.log(JSON.stringify({
+    records: result
