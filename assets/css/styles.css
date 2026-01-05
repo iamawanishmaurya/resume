@@ -64,3 +64,9 @@ body.dark-theme{
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+.change-theme:hover{
+  color: var(--title-color);
+}
+
+/*========== Font size variables to scale cv ==========*/
