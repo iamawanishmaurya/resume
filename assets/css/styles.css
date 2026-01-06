@@ -88,3 +88,9 @@ body.scale-cv{
   font-size: 1.0rem;
   color: var(--text-color);
   cursor: pointer;
+}
+
+.generate-pdf:hover{
+  color: var(--title-color);
+}
+
