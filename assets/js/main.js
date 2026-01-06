@@ -82,3 +82,9 @@ themeButton.addEventListener('click', () => {
 })
 
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/ 
+function scaleCv(){
+    document.body.classList.add('scale-cv')
+}
+
+/*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/ 
+function removeScale(){
