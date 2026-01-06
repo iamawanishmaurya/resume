@@ -88,3 +88,9 @@ function scaleCv(){
 
 /*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/ 
 function removeScale(){
+    document.body.classList.remove('scale-cv')
+}
+
+/*==================== GENERATE PDF ====================*/ 
+// PDF generated area
+let areaCv = document.getElementById('area-cv')
