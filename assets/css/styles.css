@@ -100,3 +100,9 @@ body.scale-cv{
   display: none;
 }
 
+.scale-cv .bd-container{
+  max-width: 595px;
+}
+
+.scale-cv .section{
+  padding: 0.43rem 0.10rem;
