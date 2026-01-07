@@ -118,3 +118,9 @@ body.scale-cv{
 }
 
 .scale-cv .home__img{
+  width: 90px;
+  height: 90px;
+}
+
+.scale-cv .home__container{
+  gap: 1.5rem;
