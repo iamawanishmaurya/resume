@@ -100,3 +100,9 @@ let resumeButton = document.getElementById('resume-button')
 
 
 
+
+// Html2pdf options
+let opt = {
+    margin:       0,
+    filename:     'myResume.pdf',
+    image:        { type: 'jpeg', quality: 0.98 },
