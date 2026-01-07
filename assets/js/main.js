@@ -106,3 +106,9 @@ let opt = {
     margin:       0,
     filename:     'myResume.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
+    html2canvas:  { scale: 4 },
+    jsPDF:        { format: 'a4', orientation: 'portrait' }
+}
+
+// Function to call areaCv and Html2Pdf options 
+function generateResume(){
