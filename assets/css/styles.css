@@ -124,3 +124,9 @@ body.scale-cv{
 
 .scale-cv .home__container{
   gap: 1.5rem;
+}
+
+.scale-cv .home__data{
+  gap: .25rem;
+}
+
