@@ -178,3 +178,9 @@ body.scale-cv{
 .scale-cv .interests__container{
   column-gap: 2.5rem;
 }
+
+
+
+body{
+  margin: 0 0 var(--header-height) 0;
+  padding: 0;
