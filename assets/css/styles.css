@@ -172,3 +172,9 @@ body.scale-cv{
 }
 
 .scale-cv .skills__name{
+  margin-bottom: var(--mb-1);
+}
+
+.scale-cv .interests__container{
+  column-gap: 2.5rem;
+}
