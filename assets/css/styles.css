@@ -148,3 +148,9 @@ body.scale-cv{
 }
 
 .scale-cv .education__time,
+.scale-cv .experience__time{
+  padding-right: .5rem;
+}
+
+.scale-cv .education__rounder,
+.scale-cv .experience__rounder{
