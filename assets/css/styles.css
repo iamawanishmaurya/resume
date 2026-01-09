@@ -166,3 +166,9 @@ body.scale-cv{
   transform: translate(5px, 0);
 }
 
+.scale-cv .education__data,
+.scale-cv .experience__data{
+  gap: .25rem;
+}
+
+.scale-cv .skills__name{
