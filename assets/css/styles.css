@@ -154,3 +154,9 @@ body.scale-cv{
 
 .scale-cv .education__rounder,
 .scale-cv .experience__rounder{
+  width: 11px;
+  height: 11px;
+  margin-top: .22rem;
+}
+
+.scale-cv .education__line,
