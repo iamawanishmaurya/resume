@@ -202,3 +202,9 @@ h1,h2,h3{
 ul{
   padding: 0;
   list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
