@@ -196,3 +196,9 @@ h1,h2,h3,u1,p{
 
 h1,h2,h3{
   color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+ul{
+  padding: 0;
+  list-style: none;
