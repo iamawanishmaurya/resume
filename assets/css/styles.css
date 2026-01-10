@@ -190,3 +190,9 @@ body{
   color: var(--text-color);
 }
 
+h1,h2,h3,u1,p{
+  margin: 0;
+}
+
+h1,h2,h3{
+  color: var(--title-color);
