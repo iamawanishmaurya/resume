@@ -244,3 +244,9 @@ img{
 .bd-grid_interests{
   display: grid;
   gap: 10.1rem;
+}
+
+.bd-grid_skill{
+  display: grid;
+  gap: 0rem;
+}
