@@ -238,3 +238,9 @@ img{
 
 .bd-grid{
   display: grid;
+  gap: 0.7rem;
+}
+
+.bd-grid_interests{
+  display: grid;
+  gap: 10.1rem;
