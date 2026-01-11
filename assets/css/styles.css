@@ -214,3 +214,9 @@ img{
 }
 
 /*========== CLASS CSS ==========*/
+.section{
+  padding: 0.5rem 0;
+}
+
+.section-title{
+  font-size: var(--h2-font-size);
