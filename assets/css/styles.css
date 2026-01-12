@@ -250,3 +250,9 @@ img{
   display: grid;
   gap: 0rem;
 }
+
+.l-header{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
