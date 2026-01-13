@@ -304,3 +304,9 @@ img{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+}
+
+.nav__link{
+  display: flex;
+  flex-direction: column;
+  font-size: var(--smaller-font-size);
