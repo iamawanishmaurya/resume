@@ -310,3 +310,9 @@ img{
   display: flex;
   flex-direction: column;
   font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--font-medium);
+}
+
+.nav__link:hover{
+  color: var(--title-color);
