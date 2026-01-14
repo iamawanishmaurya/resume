@@ -340,3 +340,9 @@ img{
 .home__container{
   gap: 3rem;
 }
+
+.home__data{
+  gap: .5rem;
+  text-align: center;
+}
+
