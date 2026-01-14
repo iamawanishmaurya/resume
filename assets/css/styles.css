@@ -334,3 +334,9 @@ img{
 
 /*========== HOME ==========*/
 .home{
+  position: relative;
+}
+
+.home__container{
+  gap: 3rem;
+}
