@@ -364,3 +364,9 @@ img{
 }
 
 .home__address{
+  gap: 1rem;
+}
+
+.home__information{
+  display: flex;
+  align-items: center;
