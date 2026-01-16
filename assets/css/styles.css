@@ -388,3 +388,9 @@ img{
   font-weight: var(--font-medium);
   margin-top: var(--mb-3);
 }
+
+.home__vutton-movil:hover{
+  background-color: var(--text-color);
+  color: var(--container-color)
+}
+
