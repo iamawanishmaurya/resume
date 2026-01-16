@@ -394,3 +394,9 @@ img{
   color: var(--container-color)
 }
 
+
+/*========== SOCIAL ==========*/
+.social__container{
+  grid-template-columns: max-content;
+  gap: 1rem;
+}
