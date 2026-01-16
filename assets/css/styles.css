@@ -406,3 +406,9 @@ img{
   align-items: center;
   font-size: var(--small-font-size);
   color: var(--text-color);
+}
+
+.social__link:hover{
+  color: var(--title-color);
+}
+
