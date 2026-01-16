@@ -412,3 +412,9 @@ img{
   color: var(--title-color);
 }
 
+.social__icon{
+  font-size: 1.2rem;
+  margin-right: .25rem;
+}
+
+/*========== PROFILE ==========*/
