@@ -454,3 +454,9 @@ img{
 }
 
 .education__data,
+.experience__data{
+  gap: .5rem;
+}
+
+.education__title,
+.experience__title{
