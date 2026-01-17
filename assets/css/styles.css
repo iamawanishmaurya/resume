@@ -442,3 +442,9 @@ img{
   background-color: var(--text-color-light);
   border-radius: 50%;
   margin-top: .25rem;
+}
+
+.education__line,
+.experience__line{
+  display: block;
+  width: 2px;
