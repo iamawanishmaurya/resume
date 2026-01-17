@@ -436,3 +436,9 @@ img{
 .education__rounder,
 .experience__rounder{
   position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: var(--text-color-light);
+  border-radius: 50%;
+  margin-top: .25rem;
