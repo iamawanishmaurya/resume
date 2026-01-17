@@ -478,3 +478,9 @@ img{
   grid-template-columns: repeat(2,1fr);
 }
 
+.skills__content{
+  gap: 0;
+}
+
+.languages__content{
+  gap: 0;
