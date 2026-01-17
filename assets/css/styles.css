@@ -460,3 +460,9 @@ img{
 
 .education__title,
 .experience__title{
+  font-size: var(--h3-font-size);
+}
+
+.education__studies,
+.experience__company{
+  font-size: var(--small-font-size);
