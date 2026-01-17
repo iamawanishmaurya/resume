@@ -430,3 +430,9 @@ img{
 
 .education__time,
 .experience__time{
+  padding-right: 1rem;
+}
+
+.education__rounder,
+.experience__rounder{
+  position: relative;
