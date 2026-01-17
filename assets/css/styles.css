@@ -466,3 +466,9 @@ img{
 .education__studies,
 .experience__company{
   font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+.education__year{
+  font-size: var(--smaller-font-size);
+}
