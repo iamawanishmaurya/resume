@@ -520,3 +520,9 @@ img{
 /*========== What i do/did ==========*/
 .li_what_i_do{
   margin-left: 16px;
+}
+
+/*========== INTERESTS ==========*/
+.interests__container{
+  grid-template-columns: repeat(3,1fr);
+  margin-top: var(--mb-2);
