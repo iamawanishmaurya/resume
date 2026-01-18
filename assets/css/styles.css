@@ -514,3 +514,9 @@ img{
 /*========== Achievements ==========*/
 .achievements__content{
   margin-left: 16px;
+  line-height: 1.9;
+}
+
+/*========== What i do/did ==========*/
+.li_what_i_do{
+  margin-left: 16px;
