@@ -550,3 +550,9 @@ img{
   padding: .3rem;
   background-color: var(--container-color-alt);
   border-radius: .4rem;
+  z-index: var(--z-tooltip);
+  transition: .4s;
+  visibility: hidden;
+}
+
+.scrolltop__icon{
