@@ -532,3 +532,9 @@ img{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.interests__icon{
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+  margin-bottom: .25rem;
