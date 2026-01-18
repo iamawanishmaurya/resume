@@ -526,3 +526,9 @@ img{
 .interests__container{
   grid-template-columns: repeat(3,1fr);
   margin-top: var(--mb-2);
+}
+
+.interests__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
