@@ -490,3 +490,9 @@ img{
 .languages__name{
   display: flex;
   align-items: center;
+  margin-bottom: var(--mb-3);
+}
+
+.skills__circle,
+.languages__circle{
+  display: inline-block;
