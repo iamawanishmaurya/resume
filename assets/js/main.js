@@ -107,7 +107,8 @@ let opt = {
     filename:     'myResume.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 4 },
-    jsPDF:        { format: 'a4', orientation: 'portrait' }
+    // Custom tall page to fit more content on a single page.
+    jsPDF:        { unit: 'mm', format: [210, 335], orientation: 'portrait' }
 }
 
 // Function to call areaCv and Html2Pdf options 
