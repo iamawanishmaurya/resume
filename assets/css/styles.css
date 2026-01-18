@@ -508,3 +508,9 @@ img{
 }
 
 .certificate__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+/*========== Achievements ==========*/
+.achievements__content{
+  margin-left: 16px;
