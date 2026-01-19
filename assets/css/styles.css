@@ -610,3 +610,9 @@ img{
     display: inline-block;
   }
 
+  .section-title,
+  .profile__description{
+    text-align: initial;
+  }
+
+  .home__container{
