@@ -562,3 +562,9 @@ img{
 
 .show-scroll{
   visibility: visible;
+  bottom: 5rem;
+}
+
+/*========== MEDIA QUERIES ==========*/
+/* For small devices, menu two columns */
+@media screen and (max-width: 320px){
