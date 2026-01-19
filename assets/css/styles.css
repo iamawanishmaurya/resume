@@ -622,3 +622,9 @@ img{
   .home__button-movil{
     display: none;
   }
+
+  .references__container{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .languages__content{
