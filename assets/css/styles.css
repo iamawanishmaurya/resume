@@ -586,3 +586,9 @@ img{
   }
   
   .l-header,
+  .scrolltop{
+    display: none;
+  }
+
+  .resume{
+    display: grid;
