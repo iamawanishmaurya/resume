@@ -616,3 +616,9 @@ img{
   }
 
   .home__container{
+    gap: 1.5rem;
+  }
+
+  .home__button-movil{
+    display: none;
+  }
