@@ -634,3 +634,6 @@ img{
 
   .interests__container{
     grid-template-columns: repeat(4, max-content);
+    column-gap: 2.9rem;
+  }
+}
